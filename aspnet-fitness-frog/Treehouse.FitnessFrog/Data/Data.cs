@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Treehouse.FitnessFrog.Models;
+using System.Linq;
 
 namespace Treehouse.FitnessFrog.Data
 {
@@ -61,6 +62,7 @@ namespace Treehouse.FitnessFrog.Data
                 new Entry(9, 2016, 7, 16, Activity.ActivityType.Biking, 12.7),
                 new Entry(10, 2016, 7, 16, Activity.ActivityType.PokemonGo, 23.4)
             };
+
 
             Activities = activities;
             Entries = entries;

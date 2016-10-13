@@ -7,6 +7,7 @@ using System.Web.Mvc;
 using Treehouse.FitnessFrog.Data;
 using Treehouse.FitnessFrog.Models;
 
+
 namespace Treehouse.FitnessFrog.Controllers
 {
     public class EntriesController : Controller
@@ -19,7 +20,10 @@ namespace Treehouse.FitnessFrog.Controllers
         }
 
         public ActionResult Index()
+
         {
+            
+
             List<Entry> entries = _entriesRepository.GetEntries();
 
             // Calculate the total activity.
